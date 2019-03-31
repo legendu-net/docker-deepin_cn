@@ -8,4 +8,4 @@ RUN apt-get update \
     && apt-get autoremove \
     && apt-get autoclean
     
-# ENV LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LC_ALL=zh_CN.UTF-8 
+ENV LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LC_ALL=zh_CN.UTF-8 
