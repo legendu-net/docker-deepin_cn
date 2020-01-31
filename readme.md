@@ -1,4 +1,5 @@
-# [dclong/ubuntu_cn](https://hub.docker.com/r/dclong/ubuntu_cn/)
+# dclong/deepin_cn [@DockerHub](https://hub.docker.com/r/dclong/deepin_cn/) | [@GitHub](https://github.com/dclong/docker-deepin_cn)
+
 
 Ubuntu with Chinese Locale.
 
