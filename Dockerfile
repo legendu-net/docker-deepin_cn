@@ -2,7 +2,7 @@ FROM dclong/deepin_b
 
 # locale
 RUN apt-get update \
-    && apt-get install -y fonts-arphic-uming \
+    && apt-get install -y --no-install-recommends fonts-arphic-uming \
     # && DEBIAN_FRONTEND=noninteractive apt-get install -y locales \
     && locale-gen zh_CN.UTF-8 \
     && apt-get autoremove \
